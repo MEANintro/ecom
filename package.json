@@ -1,0 +1,37 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "Simple MEAN Stack Ecommerce Store.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "test-kitten": "mocha -R nyan test.js",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEANintro/ecom.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Mongodb",
+    "Angular",
+    "Express",
+    "Node.js"
+  ],
+  "author": "Rob Merrill, Jason Montoya, Cameron Forras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MEANintro/ecom/issues"
+  },
+  "homepage": "https://github.com/MEANintro/ecom#readme",
+  "dependencies": {
+    "underscore": "1.5.2",
+    "mongodb": "2.0.35"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-mocha": "2.0.1",
+    "mocha": "2.2.4"
+  }
+}
