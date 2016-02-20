@@ -26,8 +26,9 @@
   },
   "homepage": "https://github.com/MEANintro/ecom#readme",
   "dependencies": {
-    "underscore": "1.5.2",
-    "mongodb": "2.0.35"
+    "mongodb": "2.0.35",
+    "mongoose": "^4.4.4",
+    "underscore": "1.5.2"
   },
   "devDependencies": {
     "gulp": "3.9.0",
